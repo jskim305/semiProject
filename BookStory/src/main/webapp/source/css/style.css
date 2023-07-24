@@ -1,0 +1,26 @@
+/* 전체 */
+* {margin: 0 auto; padding: 0; text-decoration: none; list-style: none; color: black;}
+a:hover {background-color: blueviolet; color:white;}
+body{width: 800px;}
+
+/* 헤더부분 */
+header {height: 100px;}
+header>.logo {float: left;}
+header>.logo>img {width: 150px; padding-top: 20px; padding-left: 20px;}
+header>nav {float:right; margin-top: 20px;}
+.nav {width: 600px; height: 20px;}
+.nav>li{
+    width:200px;
+    float:left;
+    text-align: center;
+    padding: 10px 0;
+    position:relative;
+}
+.nav>li:hover {
+    background-color: blueviolet; color:white;
+}
+header>#login{
+    clear:both;
+    text-align: right;
+    margin-right: 30px;
+}
